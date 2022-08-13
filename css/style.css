@@ -1,0 +1,27 @@
+body{
+    background-color: darkslategrey;
+    color: aqua;
+}
+
+h1{
+    font-size: 8rem;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.btn{
+    margin-left:48%;
+    display: inline-block;
+}
